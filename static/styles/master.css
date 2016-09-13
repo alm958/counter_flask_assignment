@@ -1,0 +1,7 @@
+header           {height: 20px; color: white; background-color: black; padding: 5px;}
+header a:link    {color: white; text-decoration: none;}
+header a:visited {color: white; text-decoration: none;}
+header a:active  {color: gold; text-decoration: underline; font-weight: bolder;}
+header a         {margin:20px, 0, 10px, 15px; padding:15px;}
+.container       {margin:10px; padding: 5px;}
+error            {font-weight: bolder; color: #B22222;}

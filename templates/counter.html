@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}CounterPage{% endblock %}
+{% block content %}
+
+Counter: {{session['counter']}}
+
+<form action = '/add2' method = 'post'>
+<button>add2</button>
+</form>
+<form action = '/reset' method = 'post'>
+<button>reset</button>
+</form>
+
+{% endblock %}
